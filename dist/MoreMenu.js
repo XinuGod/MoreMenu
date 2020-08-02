@@ -212,7 +212,7 @@ $(function () {
     /** Check Metawiki. */
 
 
-    mw.loader.getScript('https://meta.wikimedia.org/w/index.php?action=raw&ctype=text/javascript' + "&title=MediaWiki:Gadget-MoreMenu.messages.".concat(lang, ".js")).then(function () {
+    mw.loader.getScript('https://raw.githubusercontent.com/XinuGod/MoreMenu/master/dist/MoreMenu.messages.en.js').then(function () {
       return dfd.resolve();
     });
     return dfd;
